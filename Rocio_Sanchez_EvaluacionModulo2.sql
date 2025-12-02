@@ -72,9 +72,16 @@ ORDER BY recuento_alquileres;
 
 
 -- 12. Encuentra el promedio de duración de las películas para cada clasificación de la tabla film y muestra la clasificación junto con el promedio de duración.
-
+SELECT rating, AVG(length) AS promedio_duracion
+FROM film
+GROUP BY rating;
 
 -- 13. Encuentra el nombre y apellido de los actores que aparecen en la película con title "Indian Love".
+SELECT first_name, last_name
+FROM actor a
+INNER JOIN film_actor fa ON fa.actor_id =  a.actor_id
+INNER JOIN film f ON f.film_id = fa.film_id
+WHERE title = "Indian Love";
 
 
 -- 14. Muestra el título de todas las películas que contengan la palabra "dog" o "cat" en su descripción.
