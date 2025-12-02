@@ -85,7 +85,12 @@ WHERE title = "Indian Love";
 
 
 -- 14. Muestra el título de todas las películas que contengan la palabra "dog" o "cat" en su descripción.
-
+SELECT title
+FROM film
+WHERE description LIKE '%dog%' OR description LIKE'%cat%';
 
 -- 15. Encuentra el título de todas las películas que fueron lanzadas entre el año 2005 y 2010.
+SELECT title
+FROM film
+WHERE release_year BETWEEN 2005 AND 2010;
 
