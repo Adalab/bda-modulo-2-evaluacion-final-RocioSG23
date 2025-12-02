@@ -1,7 +1,7 @@
 -- Ejercicio 2. Base de Datos Sakila
 -- María del Rocío Sánchez Gálvez Promo 59
 
-use sakila;
+USE sakila;
 -- 1. Selecciona todos los nombres de las películas sin que aparezcan duplicados.
 SELECT DISTINCT title
 FROM film;
