@@ -1,2 +1,0 @@
-CREATE SCHEMA IF NOT EXISTS Pelis_Adalab;
-USE Pelis_Adalab;
