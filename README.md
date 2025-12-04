@@ -1,4 +1,7 @@
 EVALUACIÓN FINAL MÓDULO 2
+
+EJERCICIO 2
+
 Ejercicio técnico sobre código SQL
 
 Consultas SQL - Base de datos Sakila
